@@ -11,6 +11,8 @@ The repository contains the following notable files:
 * `src/kalman_filter.cpp` : Basic Kalman filter class used by FusionEKF
 * `src/tools.cpp` : utility class containing methods for calculating Jacobian, conversions between polar and cartesian coordinates and RMSE on data samples
 * `src/main.cpp` : file contains main function and interfaces with simulator websocket in for data in and output  
+* [carnd-ekf.mp4](carnd-ekf.mp4) video file of the terminal window and simulator output on dataset 1
+* [dataset1_rmse_final.png](dataset1_rmse_final.png) image showing final RMSE values of the EKF after running through dataset 1
 
 ## Compilation and Run Instructions
 
