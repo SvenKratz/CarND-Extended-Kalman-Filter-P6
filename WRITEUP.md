@@ -8,9 +8,16 @@ This project uses the provided template, and EKF code developed during the video
 
 `kalman_filter.cpp` contains the basic Kalman filter code. To note here is that Lidar data uses a basic Kalman filter update function `Update()` and Radar data uses the extened Kalman filter update function `UpdateEKF()` because of the nonlinearities when converting the radar data to the filter's state-space.
 
-## Small Optimization
+## Small Optimizations
 
 Once the value `y` has been calculate Kalman Filter and EKF do not differ and I thus added a `UpdateCommon()` function that contains the shared code of Kalman filter and EKF.
+
+For computing the Jacobianm, I precomputed some of the terns that get used repeatedly, i.e.,
+```  
+  float c1 = px*px+py*py;
+  float c2 = sqrt(c1);
+  float c3 = (c1*c2);
+  ```
 
 ## Discussion of Filter Output
 
