@@ -10,7 +10,7 @@ This project uses the provided template, and EKF code developed during the video
 
 ## Small Optimizations
 
-Once the value `y` has been calculate Kalman Filter and EKF do not differ and I thus added a `UpdateCommon()` function that contains the shared code of Kalman filter and EKF.
+Once the value `y` has been calculated, Kalman Filter and EKF do not differ and I thus added a `UpdateCommon()` function that contains the shared code of Kalman filter and EKF.
 
 For computing the Jacobianm, I precomputed some of the terns that get used repeatedly, i.e.,
 ```  
