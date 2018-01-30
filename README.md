@@ -14,7 +14,7 @@ The repository contains the following notable files:
 
 ## Compilation and Run Instructions
 
-Project Dependencies: see [Assignment Readme](docs/README.md)
+Project Dependencies: see [Assignment Readme](Docs/README.md)
 
 From the project root directory
 
