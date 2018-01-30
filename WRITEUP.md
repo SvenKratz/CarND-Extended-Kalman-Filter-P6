@@ -25,4 +25,4 @@ I evaluated my code with the provided simulator and made a [screen recording of 
 
 The following image shows the RMSE values of the filter after running through dataset 1.
 
-![RMSE Final](dataset1_rmse_final.png)
+![RMSE Final](./dataset1_rmse_final.png)
